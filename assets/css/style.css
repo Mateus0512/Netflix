@@ -308,3 +308,15 @@ option{
 .en{
     display: none;
 }
+
+@media (max-width: 600px){
+    .background{
+        background-color: #000;
+        background-image: none;
+    }
+    .form-body{
+        width: 100%;
+
+    }
+    
+}
