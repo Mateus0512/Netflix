@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html class="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/nficon2023.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="background">
+        
+    </div>
+
+    <div class="menu">
+        <a href="/" class="svg-nfLogo signupBasicHeader" data-uia="netflix-header-svg-logo">
+        <svg viewBox="0 0 111 30" data-uia="netflix-logo" class="svg-icon svg-icon-netflix-logo" aria-hidden="true" focusable="false">
+        <g id="netflix-logo"><path d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z" id="Fill-14"></path></g></svg></a>
+    </div>
+
+    <div class="form-container">
+
+        <div class="form-body">
+            <h1 id="entrar_titulo"><span class="pt">Entrar</span> <span class="en">Sign in</span></h1>
+            <form >
+                <div class="input-fields">
+                    <label class="input-id" placeholder>
+                    <input type="text" name="" id="emailorphone-input" class="input-form" required>
+                    <label class="input-label" id="emailorphone-label" for="emailorphone-input"><span class="pt">Email ou número de telefone</span><span class="en">Email or phone number</span></label>
+                    </label>
+                    <div class="mensagem-erro" id="mensagem-erro"><span class="pt">Informe um email ou número de telefone válido.</span><span class="en">Please enter a valid email or phone number.</span></div>
+                </div>
+                <div class="input-fields">
+                    <label class="input-id" placeholder>
+                    <input type="password" id="senha" class="input-form" required>
+                    <label for="senha" id="input-label-senha" class="input-label"><span class="pt">Senha</span><span class="en">Password</span></label>
+                    </label>
+                    <button type="button" id="mostrar" title="Exibir Senha"><span class="pt">Mostrar</span><span class="en">SHOW</span></button>
+                    <div class="mensagem-erro" id="mensagem-erro-senha"><span class="pt">A senha deve ter entre 4 e 60 caracteres.</span><span class="en">Your password must contain between 4 and 60 characters.</span></div>
+                </div>
+                <a href="" class="entrar" id="entrar"><span class="pt">Entrar</span><span class="en">Sign in</span></a>
+
+                <div class="lembre-se_ajuda">
+                    <div class="lembre-se-class">
+                        <input type="checkbox" name="" id="lembre-se">
+                        <label for="lembre-se" id="remember"><span class="pt">Lembre-se de mim</span><span class="en">Remember me?</span></label>
+                    </div>
+                    <a href="" id="ajuda"><span class="pt">Precisa de ajuda?</span><span class="en">Need help?</span></a>
+                </div>
+            </form>
+
+            <div class="informaçoes">
+                <span id="novo" class="pt">Novo por aqui? </span> <span class="en">New to Netflix?</span><a href="" class="assine" id="assine"><span class="pt">Assine agora</span><span class="en">Sign up now</span></a>
+            </div>
+            <div class="captcha">
+                <span id="informaçoes-captcha" class="pt">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.</span> <span class="en">This page is protected by Google reCAPTCHA to ensure you're not a bot.</span> &nbsp; <a href="" id="more"><span class="pt">Saiba mais.</span><span class="en">Learn more.</span></a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <p class="footer-top" id="duvida"><span class="pt">Dúvidas? Ligue </span><span class="en">Questions? Call </span><a href="" id="number">0800 591 2876</a></p>
+            <ul>
+                <li><a href="" id="perguntas"><span class="pt">Perguntas frequentes</span><span class="en">FAQ</span></a></li>
+                <li><a href="" id="central"><span class="pt">Central de Ajuda</span><span class="en">Help Center</span></a></li>
+                <li><a href="" id="termos"><span class="pt">Termos de Uso</span><span class="en">Terms of Use</span></a></li>
+                <li><a href="" id="privacidade"><span class="pt">Privacidade</span><span class="en">Privacy</span></a></li>
+                <li><a href="" id="cookies"><span class="pt">Preferências de cookies</span><span class="en">Cookie Preferences</span></a></li>
+                <li><a href="" id="corporativas"><span class="pt">Informações corporativas</span><span class="en">Corporate Information</span></a></li>
+            </ul>
+
+            <div class="lang-selection-container">
+                <div class="language-picker-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" stroke="#000" viewBox="0 0 420 420"><path stroke-width="26" d="M209 15a195 195 0 1 0 2 0z"/><path stroke-width="18" d="M210 15v390m195-195H15M59 90a260 260 0 0 0 302 0m0 240a260 260 0 0 0-302 0M195 20a250 250 0 0 0 0 382m30 0a250 250 0 0 0 0-382"/></svg>                    
+                    <select name="" id="idioma">
+                        <option value="1" id="opcao_1">Português</option>
+                        <option value="2"id="opcao_2">Inglês</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+</body>
+
+<script src="assets/js/script.js" defer></script>
+</html>
